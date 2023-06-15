@@ -1,35 +1,95 @@
-margin: 0;
-    padding: 0;
+/* aqui é comentário */
+*{
+    margin: 0; /* espaçamento externo */
+    padding: 0; /* espaçamento interno */
+}
+body {
+    font-family: 'Poppins', sans-serif; /* tipo de fonte (letra) */
+}
+.cabecalho {
+    background-color: #8c56b8; /* cor de fundo do cabecalho */
+    color: white; /* cor da letra do cabecalho */
+    display: flex; /* criar elementos flexiveis que se adaptam aqualquer tipo de tela */
+    justify-content: space-around;  /* justificar o conteúdo */
+    align-items: center;  /* alinhar sempre o texto ao centro */
+    padding: 24px 0; /* espaçamento interno */
 }
 
-.cabecalho{
-    background-color: #424E61;
-    color:white;
-    display:flex;
-    justify-content: space-aroud;
-    align-items: center;
-    padding:24px 0;
-}
 .cabecalho-imagem{
-      width:20%
+    width: 15%; /* a imagem ocupa 15% da largura da tela */
 }
+
 .cabecalho-lista-item{
-    display: inline-block;
-    margin:0 16px
-    font-size: 24px;
+    display: inline-block;  /* alinha lado a lado; no exemplo escola e estudante  */
+    margin: 0 16px;
+    font-size: 16px;  /* tamanho da fonte */
 }
+
+.escola-imagem{
+    width: 25%; /* a imagem ocupa 25% da largura da tela */
+}
+
 .escola{
-    background-image:linear-gradient(#424E61, #4EBFE9);
-    color: white;
+    background-image: linear-gradient(#7553ac,#41295c); /* gera uma imagem com gradinte que começa na cor #424E61 e termina em #16CFF8 */
+    color:rgb(206, 200, 200);  /* cor da fonte (letra) */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+}
 
-}
 .escola-div-conteudo{
-    width: 35%
+    width: 35%;
 }
+
+
 .escola-titulo{
     padding: 24px 0;
+}
+
+.estudante{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.estudante-div {
+    flex-grow: 2;
+    width: 25%; 
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
 }
