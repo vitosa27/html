@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif; /* tipo de fonte (letra) */
 }
 .cabecalho {
-    background-color: #8c56b8; /* cor de fundo do cabecalho */
+    background-color: #674899; /* cor de fundo do cabecalho */
     color: white; /* cor da letra do cabecalho */
     display: flex; /* criar elementos flexiveis que se adaptam aqualquer tipo de tela */
     justify-content: space-around;  /* justificar o conteúdo */
@@ -30,7 +30,7 @@ body {
 }
 
 .escola{
-    background-image: linear-gradient(#7553ac,#41295c); /* gera uma imagem com gradinte que começa na cor #424E61 e termina em #16CFF8 */
+    background-image: linear-gradient(#664699,#130424); /* gera uma imagem com gradinte que começa na cor #424E61 e termina em #16CFF8 */
     color:rgb(206, 200, 200);  /* cor da fonte (letra) */
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ body {
     
 }
 
-.estudante-div {
+.esdudante-div {
     flex-grow: 2;
     width: 25%; 
 }
